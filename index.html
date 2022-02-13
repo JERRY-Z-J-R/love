@@ -1,0 +1,80 @@
+<!-- 2022年2月13日 Jerry -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>祝福！</title>
+    <link type="text/css" rel="stylesheet" href="./source/default.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script type="text/javascript" src="./source/jquery.min.js"></script>
+    <script type="text/javascript" src="./source/jscex.min.js"></script>
+    <script type="text/javascript" src="./source/jscex-parser.js"></script>
+    <script>
+        var lover = {};
+        lover.info = {
+            name: "[轻点一下]",     // 点开时爱心桃旁边的字
+            year: 2021,            // 相遇的年份
+            month: 12,             // 月
+            day: 11,               // 日
+            hour: 18,              // 小时
+            minute: 24,            // 分钟
+            second: 54,            // 秒
+            debug: false,          // 是否开启调试模式（如果选是，则会弹窗提示为什么加载出错）
+        }
+    </script>
+</head>
+
+<body>
+    <!-- 背景音乐部分 -->
+    <audio id="loveBgm" src="bgm.mp3" loop="loop"></audio>
+
+    <div id="main">
+        <div id="error">
+            本页面采用HTML5编辑，目前您的浏览器无法显示，请换成Chrome、火狐、360、QQ或者其他游览器的最新版本。
+        </div>
+        <div id="wrap">
+            <div id="text">
+                <div id="code">
+                    <span class="say">平阳，很幸运能够遇见你！</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">假如世上只有一种真正的快乐，希望那是属于你的</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">假如世上只有一种永恒的温暖，希望那是你珍藏的</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">我是一个不成熟的平凡人，喜欢不成熟的你</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">人生本该是一场浪漫的修行，应把一生奉献给热爱</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">请不要迷失在孤独中，沉醉于虚幻里</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">开心的生活吧！加油向未来！</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">带着快乐与努力用一生去温暖这个世间</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say">情人节快乐！祝你，也祝我……</span><br>
+                    <span class="say"> </span><br>
+                    <span class="say"> -- Jerry -- </span>
+                </div>
+            </div>
+            <div id="clock-box">
+                <span>
+                    <font color="#666666">亲爱的，我们相识已经是：</font>
+                </span>
+                <div id="clock"></div>
+            </div>
+            <canvas id="canvas" width="1100" height="680"></canvas>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./source/jscex-jit.js"></script>
+    <script type="text/javascript" src="./source/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./source/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./source/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./source/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./source/love.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./source/canvas.js" charset="utf-8"></script>
+</body>
+
+</html>
